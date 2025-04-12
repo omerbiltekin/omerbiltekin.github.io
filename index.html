@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ömer Biltekin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Sosyal medya için Open Graph etiketleri -->
+    <meta property="og:title" content="Ömer Biltekin" />
+    <meta name="description" content="Ömer Biltekin - Veri Bilimi & İstatistik Öğrencisi" />
+    <meta property="og:image" content="profile.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://omerbiltekin.com" />
+    <meta name="keywords" content="veri bilimi, istatistik, Ömer Biltekin, DEÜ, portfolio,stajyer" /> 
+    <meta name="author" content="Ömer Biltekin" />
+
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        background-color: #fff;
+        flex-direction: row;
+      }
+
+      .left {
+        background-color: #000;
+        color: white;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+      }
+
+      .left img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px solid #444;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      .left img:hover {
+        transform: scale(1.05);
+      }
+
+      .right {
+        width: 65%;
+        padding: 60px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        color: #2c3e50;
+      }
+
+      h1 span {
+        color: #999;
+      }
+
+      .subtitle {
+        font-weight: bold;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      .description {
+        font-size: 1.1rem;
+        color: #333;
+        max-width: 600px;
+        margin-bottom: 30px;
+      }
+
+      .social {
+        display: flex;
+        gap: 20px;
+        font-size: 1.5rem;
+      }
+
+      .social a {
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease, transform 0.3s ease;
+      }
+
+      .social a:hover {
+        color: #41abdc;
+        transform: scale(1.1);
+      }
+
+      @media (max-width: 768px) {
+        body {
+          flex-direction: column;
+        }
+
+        .left, .right {
+          width: 100%;
+          padding: 20px;
+          text-align: center;
+        }
+
+        .right {
+          padding-top: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left">
+      <img src="profile.jpg" alt="Profil Fotoğrafı"/>
+    </div>
+    <div class="right">
+      <h1>ÖMER <span>BİLTEKİN</span></h1>
+      <div class="subtitle">İstatistik Öğrencisi · Veri Bilimi Bursiyeri · Stajyer</div>
+      <div class="description">
+        Dokuz Eylül Üniversitesi İstatistik bölümü öğrencisiyim. Şu anda DenizBank'ta online staj yapıyorum. Aynı zamanda Google Yapay Zeka ve Teknoloji Akademisi'nde bursiyer olarak veri bilimi eğitimi alıyorum.
+      </div>
+      <div class="social">
+        <a href="https://github.com/omerbiltekin" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/omerbiltekin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/omerbiltekin" target="_blank" title="X"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://instagram.com/omerbiltekin0" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </body>
+</html>
